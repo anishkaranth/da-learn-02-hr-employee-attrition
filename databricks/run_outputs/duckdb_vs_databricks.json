@@ -1,0 +1,18 @@
+{
+ "row_counts": [
+  {"table": "stg_employee", "duckdb_rows": 1470, "databricks_rows": 1470, "match": true},
+  {"table": "cln_employee", "duckdb_rows": 1470, "databricks_rows": 1470, "match": true},
+  {"table": "fact_employee", "duckdb_rows": 1470, "databricks_rows": 1470, "match": true},
+  {"table": "dim_department", "duckdb_rows": 3, "databricks_rows": 3, "match": true},
+  {"table": "dim_job_role", "duckdb_rows": 26, "databricks_rows": 26, "match": true},
+  {"table": "dim_education", "duckdb_rows": 30, "databricks_rows": 30, "match": true},
+  {"table": "dim_travel", "duckdb_rows": 3, "databricks_rows": 3, "match": true}
+ ],
+ "table_comparisons": {
+  "a_kpi_headline": {"rows_databricks": 1, "rows_duckdb": 1, "cell_diffs": [{"col": "median_monthly_income", "databricks": "4908.0", "duckdb": "4919.0"}]},
+  "dq_assertions": {"rows_databricks": 10, "rows_duckdb": 10, "cell_diffs": []},
+  "a_overtime_attrition": {"rows_databricks": 2, "rows_duckdb": 2, "cell_diffs": []},
+  "a_attrition_by_department": {"rows_databricks": 3, "rows_duckdb": 3, "cell_diffs": []},
+  "a_travel_attrition": {"rows_databricks": 3, "rows_duckdb": 3, "cell_diffs": []}
+ }
+}
