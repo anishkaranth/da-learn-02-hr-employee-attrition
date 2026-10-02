@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="402.973203pt" height="244.191016pt" viewBox="0 0 402.973203 244.191016" version="1.1" font-family="sans-serif">
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<path d="M 0 244 L 403 244 L 403 0 L 0 0 z" style="fill:#ffffff"/>
+<path d="M 39 221 L 396 221 L 396 21 L 39 21 z" style="fill:#ffffff"/>
+<path d="M 55 221 L 123 221 L 123 73 L 55 73 z" style="fill:#81b29a"/>
+<path d="M 140 221 L 209 221 L 209 115 L 140 115 z" style="fill:#81b29a"/>
+<path d="M 226 221 L 294 221 L 294 114 L 226 114 z" style="fill:#81b29a"/>
+<path d="M 311 221 L 380 221 L 380 148 L 311 148 z" style="fill:#81b29a"/>
+<defs>
+<path id="m820b35853c" d="M 0 0 L 0 4" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m820b35853c" x="89" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="89" y="235">Low</text>
+<use xlink:href="#m820b35853c" x="174" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="174" y="235">Medium</text>
+<use xlink:href="#m820b35853c" x="260" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="260" y="235">High</text>
+<use xlink:href="#m820b35853c" x="345" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="345" y="235">Very High</text>
+<defs>
+<path id="m31095303a6" d="M 0 0 L -4 0" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m31095303a6" x="39" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="224">0</text>
+<use xlink:href="#m31095303a6" x="39" y="189" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="192">5</text>
+<use xlink:href="#m31095303a6" x="39" y="156" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="160">10</text>
+<use xlink:href="#m31095303a6" x="39" y="124" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="127">15</text>
+<use xlink:href="#m31095303a6" x="39" y="92" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="95">20</text>
+<use xlink:href="#m31095303a6" x="39" y="59" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="63">25</text>
+<use xlink:href="#m31095303a6" x="39" y="27" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="30">30</text>
+<text style="font-size:9px; text-anchor:middle" x="14" y="121" transform="rotate(-90 14 121)">Attrition %</text>
+<path d="M 39 221 L 39 21" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<path d="M 39 221 L 396 221" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<text style="font-size:7px; text-anchor:middle" x="89" y="71">22.8%</text>
+<text style="font-size:7px; text-anchor:middle" x="174" y="112">16.4%</text>
+<text style="font-size:7px; text-anchor:middle" x="260" y="111">16.5%</text>
+<text style="font-size:7px; text-anchor:middle" x="345" y="145">11.3%</text>
+<text style="font-size:10.8px; text-anchor:middle" x="217" y="15">Job satisfaction vs attrition</text>
+</svg>
