@@ -1,0 +1,22 @@
+{
+  "project": "da-learn-02-hr-employee-attrition",
+  "source_mode": "full",
+  "kpis": {
+    "employees_total": 1470,
+    "leavers": 237,
+    "stayers": 1233,
+    "attrition_pct": 16.12,
+    "avg_monthly_income": 6502.93,
+    "median_monthly_income": 4919.0,
+    "avg_age": 36.92,
+    "avg_years_at_company": 7.01,
+    "avg_job_satisfaction": 2.729,
+    "overtime_pct": 28.3,
+    "attrition_pct_overtime": 30.53,
+    "attrition_pct_no_overtime": 10.44,
+    "avg_income_leavers": 4787.09,
+    "avg_income_stayers": 6832.74,
+    "avg_tenure_leavers": 5.13,
+    "avg_tenure_stayers": 7.37
+  }
+}

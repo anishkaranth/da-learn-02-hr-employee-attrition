@@ -1,0 +1,18 @@
+check_name,affected_rows
+RI: fact without department,0
+RI: fact without education,0
+RI: fact without job_role,0
+RI: fact without travel,0
+employee: attrition Yes,237
+employee: duplicate EmployeeNumber (extras dropped),0
+employee: income in top 1%,15
+employee: income outlier (> Q3 + 3*IQR),0
+employee: non-constant EmployeeCount,0
+employee: non-constant Over18,0
+employee: non-constant StandardHours,0
+employee: overtime Yes,416
+employee: rows dropped in cleaning,0
+employee: years_at_company > total_working_years,0
+employee: years_in_current_role > years_at_company,0
+employee: years_since_last_promotion > years_at_company,0
+employee: years_with_curr_manager > years_at_company,0

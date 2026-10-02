@@ -1,0 +1,7 @@
+entity,raw_rows,distinct_keys,clean_rows,grain
+dim_department,,,3,department
+dim_education,,,30,education + field
+dim_job_role,,,26,job_role + job_level
+dim_travel,,,3,business_travel
+employee,1470,1470,1470,employee_number
+fact_employee,,,1470,employee

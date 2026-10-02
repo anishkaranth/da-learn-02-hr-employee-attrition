@@ -1,0 +1,5 @@
+entity,column_name,raw_null_pct,clean_null_pct,treatment
+employee,Attrition,0.0,0.0,required; rows with missing attrition dropped
+employee,BusinessTravel,0.0,0.0,standardised labels; NULL kept if unrecognised
+employee,EducationField,0.0,0.0,trimmed; NULL dropped via RI on dim_education join
+employee,MonthlyIncome,0.0,0.0,required; non-positive dropped
