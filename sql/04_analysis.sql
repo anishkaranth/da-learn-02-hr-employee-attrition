@@ -65,7 +65,7 @@ SELECT
   SUM(attrition_flag) AS leavers,
   ROUND(100.0 * SUM(attrition_flag) / COUNT(*), 2) AS attrition_pct,
   ROUND(AVG(monthly_income), 2) AS avg_monthly_income,
-  ROUND(AVG(CAST(f.job_satisfaction AS DOUBLE)), 3) AS avg_job_satisfaction,
+  ROUND(AVG(CAST(job_satisfaction AS DOUBLE)), 3) AS avg_job_satisfaction,
   ROUND(AVG(CAST(work_life_balance AS DOUBLE)), 3) AS avg_work_life_balance
 FROM fact_employee
 GROUP BY 1;
