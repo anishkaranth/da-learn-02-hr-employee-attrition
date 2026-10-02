@@ -1,0 +1,7 @@
+Employees = COUNTROWS ( fact_employee )
+Leavers = CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[attrition_flag] = 1 )
+Stayers = CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[attrition_flag] = 0 )
+Attrition % = DIVIDE ( [Leavers], [Employees] )
+Avg Monthly Income = AVERAGE ( fact_employee[monthly_income] )
+OT Attrition % = DIVIDE ( CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 1, fact_employee[attrition_flag] = 1 ), CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 1 ) )
+No OT Attrition % = DIVIDE ( CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 0, fact_employee[attrition_flag] = 1 ), CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 0 ) )
