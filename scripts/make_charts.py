@@ -30,8 +30,9 @@ def p_dept(ax, t):
 
 
 def p_role(ax, t):
-    r = pd.read_csv(t / "a_attrition_by_job_role.csv").sort_values("attrition_pct", ascending=False).head(8)[::-1]
-    ax.barh(r.job_role, r.attrition_pct, color=C2)
+    r = pd.read_csv(t / "a_attrition_by_job_role.csv").sort_values("attrition_pct", ascending=False).head(8)[::-1].copy()
+    r["label"] = r.job_role + " L" + r.job_level.astype(int).astype(str)
+    ax.barh(r.label, r.attrition_pct, color=C2)
     for i, v in enumerate(r.attrition_pct):
         ax.text(v + 0.3, i, f"{v:.1f}%", va="center", fontsize=7)
     ax.set_xlabel("Attrition %"); ax.set_title("Top job roles by attrition rate")
