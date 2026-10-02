@@ -1,0 +1,4 @@
+department_name,employees,leavers,attrition_pct,avg_monthly_income,avg_job_satisfaction,overtime_pct,avg_years_at_company
+Human Resources,63,12,19.05,6654.51,2.603,26.98,7.24
+Research & Development,961,133,13.84,6281.25,2.726,28.20,6.86
+Sales,446,92,20.63,6959.17,2.751,28.70,7.28

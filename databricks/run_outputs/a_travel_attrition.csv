@@ -1,0 +1,4 @@
+business_travel,employees,leavers,attrition_pct,avg_monthly_income,overtime_pct
+Non-Travel,150,12,8.00,6261.95,23.33
+Travel_Frequently,277,69,24.91,6193.73,31.05
+Travel_Rarely,1043,156,14.96,6619.71,28.28

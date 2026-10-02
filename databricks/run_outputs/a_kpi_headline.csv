@@ -1,0 +1,2 @@
+employees_total,leavers,stayers,attrition_pct,avg_monthly_income,median_monthly_income,avg_age,avg_years_at_company,avg_job_satisfaction,avg_environment_satisfaction,avg_work_life_balance,overtime_pct,attrition_pct_overtime,attrition_pct_no_overtime,avg_income_leavers,avg_income_stayers,avg_tenure_leavers,avg_tenure_stayers
+1470,237,1233,16.12,6502.93,4908.0,36.92,7.01,2.729,2.722,2.761,28.30,30.53,10.44,4787.09,6832.74,5.13,7.37
