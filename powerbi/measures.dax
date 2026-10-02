@@ -1,7 +1,33 @@
+// measures.dax - key DAX measures for the HR attrition star schema (create in a "_Measures" table)
+// Attrition logic = same as sql/04_analysis.sql: attrition_flag = 1 when Attrition = Yes.
+
 Employees = COUNTROWS ( fact_employee )
 Leavers = CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[attrition_flag] = 1 )
 Stayers = CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[attrition_flag] = 0 )
 Attrition % = DIVIDE ( [Leavers], [Employees] )
+
 Avg Monthly Income = AVERAGE ( fact_employee[monthly_income] )
-OT Attrition % = DIVIDE ( CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 1, fact_employee[attrition_flag] = 1 ), CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 1 ) )
-No OT Attrition % = DIVIDE ( CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 0, fact_employee[attrition_flag] = 1 ), CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 0 ) )
+Median Monthly Income = MEDIAN ( fact_employee[monthly_income] )
+Avg Age = AVERAGE ( fact_employee[age] )
+Avg Years At Company = AVERAGE ( fact_employee[years_at_company] )
+Avg Job Satisfaction = AVERAGE ( fact_employee[job_satisfaction] )
+Avg Environment Satisfaction = AVERAGE ( fact_employee[environment_satisfaction] )
+Avg Work Life Balance = AVERAGE ( fact_employee[work_life_balance] )
+
+Overtime Employees = CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 1 )
+Overtime % = DIVIDE ( [Overtime Employees], [Employees] )
+OT Attrition % =
+    DIVIDE (
+        CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 1, fact_employee[attrition_flag] = 1 ),
+        CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 1 )
+    )
+No OT Attrition % =
+    DIVIDE (
+        CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 0, fact_employee[attrition_flag] = 1 ),
+        CALCULATE ( COUNTROWS ( fact_employee ), fact_employee[overtime_flag] = 0 )
+    )
+
+Avg Income Leavers = CALCULATE ( AVERAGE ( fact_employee[monthly_income] ), fact_employee[attrition_flag] = 1 )
+Avg Income Stayers = CALCULATE ( AVERAGE ( fact_employee[monthly_income] ), fact_employee[attrition_flag] = 0 )
+Avg Tenure Leavers = CALCULATE ( AVERAGE ( fact_employee[years_at_company] ), fact_employee[attrition_flag] = 1 )
+Avg Tenure Stayers = CALCULATE ( AVERAGE ( fact_employee[years_at_company] ), fact_employee[attrition_flag] = 0 )
