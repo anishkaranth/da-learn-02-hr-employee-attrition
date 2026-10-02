@@ -1,0 +1,7 @@
+gender,marital_status,employees,leavers,attrition_pct
+Female,Divorced,117,9,7.69
+Female,Married,272,31,11.4
+Female,Single,199,47,23.62
+Male,Divorced,210,24,11.43
+Male,Married,401,53,13.22
+Male,Single,271,73,26.94

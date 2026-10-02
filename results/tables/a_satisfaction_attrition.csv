@@ -1,0 +1,5 @@
+job_satisfaction,job_satisfaction_label,employees,leavers,attrition_pct,avg_monthly_income
+1,Low,289,66,22.84,6561.57
+2,Medium,280,46,16.43,6527.33
+3,High,442,73,16.52,6480.5
+4,Very High,459,52,11.33,6472.73

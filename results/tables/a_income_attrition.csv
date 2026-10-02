@@ -1,0 +1,6 @@
+income_band,employees,leavers,attrition_pct,avg_years_at_company,avg_job_satisfaction
+01: <3k,395,113,28.61,3.66,2.752
+02: 3-5k,354,50,14.12,5.82,2.669
+03: 5-8k,340,34,10.0,7.18,2.826
+04: 8-15k,248,35,14.11,10.04,2.661
+05: 15k+,133,5,3.76,14.03,2.692

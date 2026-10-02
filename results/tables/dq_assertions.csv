@@ -1,0 +1,11 @@
+check_name,failed_rows,status
+age between 18 and 70,0,PASS
+"attrition_flag in {0,1}",0,PASS
+fact_employee.department_key -> dim_department,0,PASS
+fact_employee.education_key -> dim_education,0,PASS
+fact_employee.employee_number unique,0,PASS
+fact_employee.job_role_key -> dim_job_role,0,PASS
+fact_employee.travel_key -> dim_travel,0,PASS
+job_satisfaction in 1..4,0,PASS
+monthly_income > 0,0,PASS
+no NULL employee_number,0,PASS
