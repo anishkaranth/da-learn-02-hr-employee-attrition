@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#fff"/>
+<text x="450" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f6f8b">IBM HR employee attrition — preview KPIs (full data)</text>
+<g font-size="22" font-weight="bold" fill="#1f6f8b" text-anchor="middle">
+  <text x="100" y="90">1,470</text><text x="250" y="90">237</text><text x="400" y="90">16.12%</text>
+  <text x="550" y="90">$6,503</text><text x="700" y="90">30.53%</text><text x="840" y="90">10.44%</text>
+</g>
+<g font-size="11" fill="#555" text-anchor="middle">
+  <text x="100" y="110">Employees</text><text x="250" y="110">Leavers</text><text x="400" y="110">Attrition</text>
+  <text x="550" y="110">Avg income</text><text x="700" y="110">OT attrition</text><text x="840" y="110">No-OT attrition</text>
+</g>
+<text x="40" y="160" font-size="13" fill="#333">Headline insights (from results/metrics.json)</text>
+<text x="40" y="190" font-size="12">• Overtime nearly triples attrition: 30.53% vs 10.44% (416 OT / 1,054 non-OT)</text>
+<text x="40" y="215" font-size="12">• Sales Rep L1 42.11% (32/76); Lab Tech L1 28.0% (56/200); tenure <2y 34.88%</text>
+<text x="40" y="240" font-size="12">• Sales 20.63%, HR 19.05%, R&D 13.84%; Travel frequently 24.91% vs Non-Travel 8.0%</text>
+<text x="40" y="265" font-size="12">• Income <$3k 28.61% vs 15k+ 3.76%; Low satisfaction 22.84% vs Very High 11.33%</text>
+<text x="40" y="310" font-size="12" fill="#666">Panel charts: attrition_by_department / attrition_by_job_role / overtime / tenure / satisfaction / travel SVGs in this folder.</text>
+<text x="40" y="340" font-size="12" fill="#666">Live Databricks Lakeview: "da-learn-02 HR employee attrition" (schema workspace.da_learn_02).</text>
+</svg>
