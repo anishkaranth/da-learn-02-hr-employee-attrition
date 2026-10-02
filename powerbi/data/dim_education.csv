@@ -1,0 +1,31 @@
+education_key,education_level,education_label,education_field
+1,1,Below College,Human Resources
+2,1,Below College,Life Sciences
+3,1,Below College,Marketing
+4,1,Below College,Medical
+5,1,Below College,Other
+6,1,Below College,Technical Degree
+7,2,College,Human Resources
+8,2,College,Life Sciences
+9,2,College,Marketing
+10,2,College,Medical
+11,2,College,Other
+12,2,College,Technical Degree
+13,3,Bachelor,Human Resources
+14,3,Bachelor,Life Sciences
+15,3,Bachelor,Marketing
+16,3,Bachelor,Medical
+17,3,Bachelor,Other
+18,3,Bachelor,Technical Degree
+19,4,Master,Human Resources
+20,4,Master,Life Sciences
+21,4,Master,Marketing
+22,4,Master,Medical
+23,4,Master,Other
+24,4,Master,Technical Degree
+25,5,Doctor,Human Resources
+26,5,Doctor,Life Sciences
+27,5,Doctor,Marketing
+28,5,Doctor,Medical
+29,5,Doctor,Other
+30,5,Doctor,Technical Degree

@@ -1,0 +1,27 @@
+job_role_key,job_role,job_level
+1,Healthcare Representative,2
+2,Healthcare Representative,3
+3,Healthcare Representative,4
+4,Human Resources,1
+5,Human Resources,2
+6,Human Resources,3
+7,Laboratory Technician,1
+8,Laboratory Technician,2
+9,Laboratory Technician,3
+10,Manager,3
+11,Manager,4
+12,Manager,5
+13,Manufacturing Director,2
+14,Manufacturing Director,3
+15,Manufacturing Director,4
+16,Research Director,3
+17,Research Director,4
+18,Research Director,5
+19,Research Scientist,1
+20,Research Scientist,2
+21,Research Scientist,3
+22,Sales Executive,2
+23,Sales Executive,3
+24,Sales Executive,4
+25,Sales Representative,1
+26,Sales Representative,2

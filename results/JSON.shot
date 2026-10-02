@@ -1,0 +1,28 @@
+{
+  "snapshot": "headline KPIs + run config",
+  "source_mode": "full",
+  "config": {
+    "engine": "duckdb 1.5.6",
+    "sql_dialect": "Spark/Databricks SQL (+ DuckDB shims in 00)",
+    "attrition_definition": "Attrition=Yes -> attrition_flag=1",
+    "outlier_rule": "monthly_income > Q3 + 3*IQR",
+    "sample_rule": "EmployeeNumber % 20 = 1"
+  },
+  "headline": {
+    "employees_total": 1470,
+    "leavers": 237,
+    "stayers": 1233,
+    "attrition_pct": 16.12,
+    "avg_monthly_income": 6502.93,
+    "median_monthly_income": 4919.0,
+    "avg_age": 36.92,
+    "avg_years_at_company": 7.01,
+    "avg_job_satisfaction": 2.729,
+    "overtime_pct": 28.3,
+    "attrition_pct_overtime": 30.53,
+    "attrition_pct_no_overtime": 10.44
+  },
+  "overtime_attrition_pct": {"No OverTime": 10.44, "OverTime": 30.53},
+  "assertions_passed": 10,
+  "assertions_total": 10
+}

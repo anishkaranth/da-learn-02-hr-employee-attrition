@@ -1,0 +1,15 @@
+{
+  "snapshot": "headline KPIs + run config",
+  "source_mode": "sample",
+  "headline": {
+    "employees_total": 78,
+    "leavers": 12,
+    "stayers": 66,
+    "attrition_pct": 15.38,
+    "avg_monthly_income": 6423.37,
+    "attrition_pct_overtime": 31.03,
+    "attrition_pct_no_overtime": 6.12
+  },
+  "assertions_passed": 10,
+  "assertions_total": 10
+}
