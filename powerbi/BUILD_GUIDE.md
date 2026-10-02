@@ -2,7 +2,7 @@
 
 > A `.pbix` file cannot be produced on the Linux box this project was built on (Power BI Desktop is Windows-only
 > and has no headless/CLI author mode), so this folder is a **kit**: data + model + measures + layout spec.
-> Estimated build time: 30-45 min. The dataset is small (1,470 rows), so `powerbi/data/` holds the **full** clean star schema.
+> Estimated build time: 30-45 min. The dataset is small (1,470 rows), so `powerbi/data/` holds the star schema (fact_employee is the 78-row sample for the text GitHub API; regenerate full with `python run_pipeline.py --source full`).
 
 1. **Get the data.** Use the CSVs in `powerbi/data/` (full run). Or regenerate with
    `pip install -r requirements.txt && python scripts/download_full_data.py && python run_pipeline.py --source full`.
@@ -13,4 +13,4 @@
 5. **Pages.** Build the 3 pages in `dashboard_spec.md`; compare with `results/charts/dashboard.svg`.
 6. **Validate** against the SQL run (full data): Employees 1,470, Attrition 16.12 %, OT attrition 30.53 %, No-OT 10.44 %,
    Avg income $6,502.93 (`results/metrics.json`). Subset expected values: `results/sample/JSON.shot`.
-7. Save as `hr_attrition.pbix` (not committed — binary).
+7. Save as `hr_attrition.pbix` (not committed).
