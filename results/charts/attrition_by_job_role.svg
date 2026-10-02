@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="491.039687pt" height="257.191016pt" viewBox="0 0 491.039687 257.191016" version="1.1" font-family="sans-serif">
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<path d="M 0 257 L 491 257 L 491 0 L 0 0 z" style="fill:#ffffff"/>
+<path d="M 127 221 L 484 221 L 484 21 L 127 21 z" style="fill:#ffffff"/>
+<path d="M 127 212 L 248 212 L 248 193 L 127 193 z" style="fill:#e07a5f"/>
+<path d="M 127 189 L 262 189 L 262 170 L 127 170 z" style="fill:#e07a5f"/>
+<path d="M 127 165 L 303 165 L 303 147 L 127 147 z" style="fill:#e07a5f"/>
+<path d="M 127 142 L 306 142 L 306 124 L 127 124 z" style="fill:#e07a5f"/>
+<path d="M 127 119 L 317 119 L 317 100 L 127 100 z" style="fill:#e07a5f"/>
+<path d="M 127 96 L 336 96 L 336 77 L 127 77 z" style="fill:#e07a5f"/>
+<path d="M 127 72 L 336 72 L 336 54 L 127 54 z" style="fill:#e07a5f"/>
+<path d="M 127 49 L 391 49 L 391 30 L 127 30 z" style="fill:#e07a5f"/>
+<defs>
+<path id="m48c58fc19f" d="M 0 0 L 0 4" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m48c58fc19f" x="127" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="127" y="235">0</text>
+<use xlink:href="#m48c58fc19f" x="190" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="190" y="235">10</text>
+<use xlink:href="#m48c58fc19f" x="252" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="252" y="235">20</text>
+<use xlink:href="#m48c58fc19f" x="315" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="315" y="235">30</text>
+<use xlink:href="#m48c58fc19f" x="378" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="378" y="235">40</text>
+<use xlink:href="#m48c58fc19f" x="441" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="441" y="235">50</text>
+<text style="font-size:9px; text-anchor:middle" x="305" y="248">Attrition %</text>
+<defs>
+<path id="m2d6570deeb" d="M 0 0 L -4 0" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m2d6570deeb" x="127" y="203" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="206">Research Scientist L1</text>
+<use xlink:href="#m2d6570deeb" x="127" y="179" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="183">Sales Executive L3</text>
+<use xlink:href="#m2d6570deeb" x="127" y="156" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="160">Laboratory Technician L1</text>
+<use xlink:href="#m2d6570deeb" x="127" y="133" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="136">Sales Executive L4</text>
+<use xlink:href="#m2d6570deeb" x="127" y="110" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="113">Human Resources L1</text>
+<use xlink:href="#m2d6570deeb" x="127" y="86" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="90">Human Resources L3</text>
+<use xlink:href="#m2d6570deeb" x="127" y="63" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="66">Laboratory Technician L3</text>
+<use xlink:href="#m2d6570deeb" x="127" y="40" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="120" y="43">Sales Representative L1</text>
+<path d="M 127 221 L 127 21" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<path d="M 127 221 L 484 221" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<text style="font-size:7px; text-anchor:start" x="249" y="204">19.2%</text>
+<text style="font-size:7px; text-anchor:start" x="264" y="181">21.5%</text>
+<text style="font-size:7px; text-anchor:start" x="304" y="158">28.0%</text>
+<text style="font-size:7px; text-anchor:start" x="308" y="135">28.6%</text>
+<text style="font-size:7px; text-anchor:start" x="319" y="111">30.3%</text>
+<text style="font-size:7px; text-anchor:start" x="338" y="88">33.3%</text>
+<text style="font-size:7px; text-anchor:start" x="338" y="65">33.3%</text>
+<text style="font-size:7px; text-anchor:start" x="393" y="42">42.1%</text>
+<text style="font-size:10.8px; text-anchor:middle" x="305" y="15">Top job roles by attrition rate</text>
+</svg>
