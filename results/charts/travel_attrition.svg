@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="402.973203pt" height="244.191016pt" viewBox="0 0 402.973203 244.191016" version="1.1" font-family="sans-serif">
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<path d="M 0 244 L 403 244 L 403 0 L 0 0 z" style="fill:#ffffff"/>
+<path d="M 39 221 L 396 221 L 396 21 L 39 21 z" style="fill:#ffffff"/>
+<path d="M 55 221 L 148 221 L 148 174 L 55 174 z" style="fill:#1f6f8b"/>
+<path d="M 171 221 L 264 221 L 264 132 L 171 132 z" style="fill:#81b29a"/>
+<path d="M 287 221 L 380 221 L 380 73 L 287 73 z" style="fill:#e07a5f"/>
+<defs>
+<path id="mb6a4605297" d="M 0 0 L 0 4" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#mb6a4605297" x="101" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="101" y="235">Non-Travel</text>
+<use xlink:href="#mb6a4605297" x="217" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="217" y="235">Travel Rarely</text>
+<use xlink:href="#mb6a4605297" x="333" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="333" y="235">Travel Frequently</text>
+<defs>
+<path id="m65a7ded219" d="M 0 0 L -4 0" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m65a7ded219" x="39" y="221" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="224">0</text>
+<use xlink:href="#m65a7ded219" x="39" y="191" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="195">5</text>
+<use xlink:href="#m65a7ded219" x="39" y="162" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="165">10</text>
+<use xlink:href="#m65a7ded219" x="39" y="132" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="135">15</text>
+<use xlink:href="#m65a7ded219" x="39" y="102" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="106">20</text>
+<use xlink:href="#m65a7ded219" x="39" y="73" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="76">25</text>
+<use xlink:href="#m65a7ded219" x="39" y="43" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="32" y="46">30</text>
+<text style="font-size:9px; text-anchor:middle" x="14" y="121" transform="rotate(-90 14 121)">Attrition %</text>
+<path d="M 39 221 L 39 21" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<path d="M 39 221 L 396 221" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<text style="font-size:7px; text-anchor:middle" x="101" y="171">8.0%</text>
+<text style="font-size:7px; text-anchor:middle" x="217" y="130">15.0%</text>
+<text style="font-size:7px; text-anchor:middle" x="333" y="71">24.9%</text>
+<text style="font-size:10.8px; text-anchor:middle" x="217" y="15">Business travel vs attrition</text>
+</svg>
