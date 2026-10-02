@@ -1,6 +1,8 @@
 {
   "project": "da-learn-02-hr-employee-attrition",
+  "dataset": "IBM HR Analytics Employee Attrition & Performance (Kaggle: pavansubhasht/ibm-hr-analytics-attrition-dataset; ODbL + DbCL)",
   "source_mode": "full",
+  "currency": "USD (monthly income units as in source)",
   "kpis": {
     "employees_total": 1470,
     "leavers": 237,
@@ -11,6 +13,8 @@
     "avg_age": 36.92,
     "avg_years_at_company": 7.01,
     "avg_job_satisfaction": 2.729,
+    "avg_environment_satisfaction": 2.722,
+    "avg_work_life_balance": 2.761,
     "overtime_pct": 28.3,
     "attrition_pct_overtime": 30.53,
     "attrition_pct_no_overtime": 10.44,
@@ -18,5 +22,61 @@
     "avg_income_stayers": 6832.74,
     "avg_tenure_leavers": 5.13,
     "avg_tenure_stayers": 7.37
+  },
+  "data_quality": {
+    "row_counts": [
+      {"entity": "employee", "raw_rows": 1470, "distinct_keys": 1470, "clean_rows": 1470, "grain": "employee_number"},
+      {"entity": "fact_employee", "raw_rows": null, "distinct_keys": null, "clean_rows": 1470, "grain": "employee"},
+      {"entity": "dim_department", "raw_rows": null, "distinct_keys": null, "clean_rows": 3, "grain": "department"},
+      {"entity": "dim_job_role", "raw_rows": null, "distinct_keys": null, "clean_rows": 26, "grain": "job_role + job_level"},
+      {"entity": "dim_education", "raw_rows": null, "distinct_keys": null, "clean_rows": 30, "grain": "education + field"},
+      {"entity": "dim_travel", "raw_rows": null, "distinct_keys": null, "clean_rows": 3, "grain": "business_travel"}
+    ],
+    "null_rates": [
+      {"entity": "employee", "column_name": "Attrition", "raw_null_pct": 0.0, "clean_null_pct": 0.0, "treatment": "required; rows with missing attrition dropped"},
+      {"entity": "employee", "column_name": "MonthlyIncome", "raw_null_pct": 0.0, "clean_null_pct": 0.0, "treatment": "required; non-positive dropped"},
+      {"entity": "employee", "column_name": "BusinessTravel", "raw_null_pct": 0.0, "clean_null_pct": 0.0, "treatment": "standardised labels; NULL kept if unrecognised"},
+      {"entity": "employee", "column_name": "EducationField", "raw_null_pct": 0.0, "clean_null_pct": 0.0, "treatment": "trimmed; NULL dropped via RI on dim_education join"}
+    ],
+    "issues": {
+      "employee: duplicate EmployeeNumber (extras dropped)": 0,
+      "employee: rows dropped in cleaning": 0,
+      "employee: income outlier (> Q3 + 3*IQR)": 0,
+      "employee: income in top 1%": 15,
+      "employee: years_at_company > total_working_years": 0,
+      "employee: years_in_current_role > years_at_company": 0,
+      "employee: years_with_curr_manager > years_at_company": 0,
+      "employee: years_since_last_promotion > years_at_company": 0,
+      "employee: non-constant EmployeeCount": 0,
+      "employee: non-constant Over18": 0,
+      "employee: non-constant StandardHours": 0,
+      "employee: overtime Yes": 416,
+      "employee: attrition Yes": 237,
+      "RI: fact without department": 0,
+      "RI: fact without job_role": 0,
+      "RI: fact without education": 0,
+      "RI: fact without travel": 0
+    },
+    "assertions": {
+      "fact_employee.employee_number unique": "PASS",
+      "fact_employee.department_key -> dim_department": "PASS",
+      "fact_employee.job_role_key -> dim_job_role": "PASS",
+      "fact_employee.education_key -> dim_education": "PASS",
+      "fact_employee.travel_key -> dim_travel": "PASS",
+      "attrition_flag in {0,1}": "PASS",
+      "monthly_income > 0": "PASS",
+      "age between 18 and 70": "PASS",
+      "job_satisfaction in 1..4": "PASS",
+      "no NULL employee_number": "PASS"
+    }
+  },
+  "engine": {"duckdb": "1.5.6", "python": "3.13.5"},
+  "sql_timings_s": {
+    "00_duckdb_compat.sql": 0.002,
+    "01_staging.sql": 0.07,
+    "02_cleaning.sql": 0.021,
+    "03_model.sql": 0.019,
+    "04_analysis.sql": 0.027,
+    "05_quality_checks.sql": 0.018
   }
 }
