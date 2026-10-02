@@ -22,7 +22,20 @@
     "attrition_pct_overtime": 30.53,
     "attrition_pct_no_overtime": 10.44
   },
-  "overtime_attrition_pct": {"No OverTime": 10.44, "OverTime": 30.53},
+  "overtime_attrition_pct": {
+    "No OverTime": 10.44,
+    "OverTime": 30.53
+  },
+  "top_departments_by_attrition": [
+    {"department_name": "Sales", "attrition_pct": 20.63, "employees": 446, "leavers": 92},
+    {"department_name": "Human Resources", "attrition_pct": 19.05, "employees": 63, "leavers": 12},
+    {"department_name": "Research & Development", "attrition_pct": 13.84, "employees": 961, "leavers": 133}
+  ],
+  "top3_roles_by_attrition": [
+    {"job_role": "Sales Representative", "attrition_pct": 42.11, "employees": 76, "leavers": 32},
+    {"job_role": "Laboratory Technician", "attrition_pct": 33.33, "employees": 3, "leavers": 1},
+    {"job_role": "Human Resources", "attrition_pct": 33.33, "employees": 6, "leavers": 2}
+  ],
   "assertions_passed": 10,
   "assertions_total": 10
 }
